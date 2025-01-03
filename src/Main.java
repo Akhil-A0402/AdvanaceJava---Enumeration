@@ -19,6 +19,8 @@ public class Main {
         System.out.println("Lowercase : " + lowLevel.asLowerCase());
         System.out.println("Uppercase : " + lowLevel.asUpperCase());
 
-
+        for(Level level:Level.values()){
+            System.out.println(level);
+        }
     }
 }
